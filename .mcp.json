@@ -1,0 +1,10 @@
+{
+  "inputs": [],
+  "servers": {
+    "EmployeeExpense": {
+      "type": "http",
+      "url": "http://localhost:5000/mcp",
+      "headers": {}
+    }
+  }
+}
