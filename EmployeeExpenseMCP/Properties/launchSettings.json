@@ -1,7 +1,11 @@
 {
   "profiles": {
     "EmployeeExpenseMCP": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AppConfig": "https://employeeexpensemcp.azconfig.io"
+      }
     }
   }
 }
